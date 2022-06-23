@@ -1,7 +1,33 @@
-import React from 'react';
+import React from "react";
 
-import '../styles/components/App.css';
 
-const App = () => <h1>HelloWorld</h1>;
-
+const App = () => <h1>Hello World</h1>
 export default App;
+
+/* import { BrowserRouter, Routes, Route } from "react-router-dom";
+import '../styles/components/App.css';
+import {Home} from "../containers/Home";
+import {Checkout} from "../containers/Checkout";
+import {Success} from "../containers/Success";
+import {Payment} from "../containers/Payment";
+import {Information} from "../containers/Information";
+import {NotFound} from "../containers/NotFound";
+ */
+
+/* 
+const App = () => {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Home />}/>      
+        <Route exact path='/checkout' element={<Checkout />} />
+        <Route exact path='/checkout/information' element={<Information />} />
+        <Route exact path='/checkout/payment' element={<Payment />} />
+        <Route exact path='/checkout/success' element={<Success />} />
+        <Route path='*' element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>    
+  );
+};
+
+export default App; */
