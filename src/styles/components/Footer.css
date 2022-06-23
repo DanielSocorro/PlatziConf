@@ -2,3 +2,10 @@
     display: flex;
     justify-content: space-between;
   }
+  
+  .Footer-title {
+   
+  }
+  .Footer-copy {
+    margin: 0 10px 0 0.5em;
+  }
