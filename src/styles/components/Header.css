@@ -4,10 +4,11 @@
   }
   .Header-checkout {
     display: flex;
+    font-size: 28px;
     justify-content: space-evenly;
     align-items: center;
     justify-items: center;
-    width: 30px;
+    width: 105px;
     margin: 0 26px 0 0.5em;
   }
   .Header-alert {

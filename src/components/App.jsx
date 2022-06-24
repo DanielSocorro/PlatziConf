@@ -1,8 +1,6 @@
-import React from "react";
 
 
-const App = () => <h1>Hello World</h1>
-export default App;
+
 
 /* import { BrowserRouter, Routes, Route } from "react-router-dom";
 import '../styles/components/App.css';
