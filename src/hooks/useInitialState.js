@@ -11,7 +11,7 @@ const useinitialState = () => {
             cart: [...state.cart, payload],
         });
     }
-    const remoteFromCart = payload => {
+    const removeFromCart = payload => {
         setState({
             ...state,
             cart: state.cart.filter(items => items.id !== payload.id)
@@ -20,7 +20,7 @@ const useinitialState = () => {
 
     return  {
         addToCart,
-        remoteFromCart,
+        removeFromCart,
         state,
     };
 
