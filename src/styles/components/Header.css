@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-between;
   }
+  .h1 {
+    background-image:url(/src/img/marca-registrada.png);
+  }
   .Header-checkout {
     display: flex;
     font-size: 28px;

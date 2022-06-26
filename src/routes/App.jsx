@@ -9,11 +9,13 @@ import NotFound from '../containers/NotFound';
 import Layout from '../components/Layout';
 import AppContext from "../context/AppContext";
 import useinitialState from "../hooks/useInitialState";
+import { PayPalScriptProvider } from '@paypal/react-paypal-js';
 
 
 const App = () => {
   const initialState = useinitialState();
     return (
+      <PayPalScriptProvider options={{"client-id": "AQ348XIPD92Fd586HLuYrTc1tqaYZHEpZIeT3rlMH04KUQBjZSZ0G2H4m4vsIhXs2-j3tSjtBbpcW-Ma"}}>
       <AppContext.Provider value={initialState}>
         <BrowserRouter>
          <Layout>
@@ -28,6 +30,7 @@ const App = () => {
           </Layout>
           </BrowserRouter>
           </AppContext.Provider>
+          </PayPalScriptProvider>
     );
   }
   
