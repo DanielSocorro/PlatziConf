@@ -23,7 +23,7 @@ const handleSubmit = () => {
       'cp': formData.get('cp'),
       'phone': formData.get('phone'),
     };
-    addToBuyer(buyer);
+   /*  addToBuyer(buyer); */
     navigate('/checkout/payment');
   };
 
